@@ -1,0 +1,254 @@
+@import url(https://fonts.googleapis.com/css?family=Asap:400,700|Hind:400,300);
+
+body
+{
+	font-size:16px;
+	background-image: url(../images/symbols/ornament-footer.png);
+	background-position: 50% 100%;	
+	background-repeat: no-repeat;
+
+}
+
+@media(min-width:768px)	{
+	body 
+	{	
+	font-size: 18px;
+	background-image: url(../images/symbols/ornament-footer.png), url(../images/symbols/ornament-footer-right.png);
+	background-position: 0% 99%, 100% 99%;	
+	}
+}
+
+
+/*Section header*/
+
+.header
+{
+	background-color: #2e3f7d;
+	background-image: url(../images/patterns/legacy-pattern.png);
+	height:162px;	
+}
+
+@media (min-width: 1024px) {
+ 	.header
+ 	{
+		background-image: url(../images/patterns/legacy-pattern-large.png);
+ 	}  
+} 
+
+.logo
+{
+	margin-top: 18px;
+	width: 180px;
+	height: 123px;	
+}
+
+
+/*Section Candidate or Body*/
+
+.vote-info
+{
+	padding-top:1.125em;
+	padding-bottom:1.125em;
+	position: relative;
+	
+}
+	
+.vote-info p
+{
+	margin: 0px auto;
+	padding-bottom: 1.125em;
+}
+
+.vote-info .title-vote
+{
+	position: absolute;
+	top: -12%;
+	background-color: #2e3f7d;
+	padding: 1%;
+	margin: 0px auto;
+	left: 0;
+	right: 0;
+	width: 20%;
+	color: white;
+}
+
+@media (max-width: 780px) {
+	.title-vote
+	{
+		position: relative;
+		color: $danube;
+		width: 100%;
+		background-color: $white;
+	}
+
+}
+
+.bodycopy
+{
+	font-family: "Hind", sans-serif;
+	font-size:16px;
+	font-weight: 400; 
+	line-height: 1.125;
+	color:#6098d1;
+
+}
+
+@media(min-width:768px){
+	.bodycopy
+	{	
+		font-size: 18px;
+		line-height: 1.111;
+	}
+}
+
+.line
+{
+    border: 1px solid #6098d1;
+  	width: 15%;
+}
+
+.miss-antioquia
+{
+	background: #2e3f7d;
+}
+
+.ornament 
+{
+	background-image:url(../images/symbols/ornament.png);
+	background-position: center left;
+	background-repeat:no-repeat; 
+	height: 21px;
+		margin-top: 22.5px;
+}
+
+.ornament-inverse
+{
+	background-image:url(../images/symbols/ornament.png);
+	background-position: center left;
+	background-repeat:no-repeat; 
+	height: 21px;
+		margin-top: 22.5px;
+	-moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+
+.heading
+{
+	font-family: "Asap", sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1;	
+	color: #2e3f7d; 
+	text-transform: uppercase;
+}
+
+@media(min-width:768px){
+	.heading
+	{	
+		font-size: 22px;
+		line-height: 1.091;
+	}
+}
+
+.heading a 
+{
+	outline: none;
+	text-decoration: none;
+}
+
+.heading-inverse, .heading-inverse>a
+{
+	font-family: "Asap", sans-serif;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 1;	
+	color: white; 
+	text-transform: uppercase;	
+}
+
+@media(min-width:768px){
+	.heading-inverse
+	{	
+		font-size: 22px;
+		line-height: 1.091;
+	}
+}
+
+.heading-inverse a 
+{
+	outline: none;
+	text-decoration: none;
+}
+
+.thumbnail
+{
+	border: none !important;
+	margin-top:1.125em;
+	background-color: transparent !important;
+}
+
+.finalist-img
+{
+	border: 5px solid #6098d1;
+}
+
+.bodycopy
+{
+	font-family: "Hind", sans-serif;
+	font-size:16px;
+	font-weight: 400; 
+	line-height: 1.125;
+	color:#6098d1;
+}
+
+@media(min-width:768px){
+	.bodycopy
+	{
+		font-size: 18px;
+		line-height: 1.111;
+	}
+}
+
+
+.bodycopy-inverse, .bodycopy-inverse>a
+{
+	font-family: "Hind", sans-serif;
+	font-size:16px;
+	font-weight: 400; 
+	line-height: 1.125;
+	color: white; 
+}
+
+@media(min-width:768px){
+	.bodycopy-inverse
+	{
+		font-size: 18px;
+		line-height: 1.111;
+	}
+}
+
+.panel-medium{	
+	background: #2e3f7d;
+	margin-top: 1.111em;
+	margin-bottom: 1.111em;
+	padding: 1.111em;
+}
+
+/*Section Footer */
+
+.footer
+{
+	background-color: #2e3f7d;
+	height: 2.25em;
+}
+
+.footer	ul li img
+{
+	margin-bottom: 0;
+	margin-top: 9px;
+}
